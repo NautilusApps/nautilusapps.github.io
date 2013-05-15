@@ -1,13 +1,9 @@
 ---
-layout: default
+layout: post
 title: "Building Instagram Like Effects"
 description: "I don't need to justify my blog's name... but I will"
 tags: [cats, dogs, iOS]
 ---
-{% include JB/setup %}
-
-## {{ page.title }}
-{{ page.date | date_to_long_string }}
 
 stuff about headphones n junk
 

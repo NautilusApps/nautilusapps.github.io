@@ -1,46 +1,30 @@
 ---
-layout: page
-title: Hello World!
-tagline: Supporting tagline
+layout: default
+title: Home
 ---
-{% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+<div id="home">
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+  <div id="intro">
+    {% include home.html %}
+  </div>
 
-## Update Author Attributes
+  <div id="featured">
+    <h3>Latest</h3>
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+    {% for post in site.posts offset: 0 limit: site.theme.homepage_featured %}
+      {% include post_featured.html %}
+    {% endfor %}
+  </div>
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+  <div id="posts">
+    <h3>Older thoughts</h3>
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
+    <dl>
+      {% for post in site.posts offset: site.theme.homepage_featured limit: site.theme.homepage_posts %}
+        {% include post_summary.html %}
+      {% endfor %}
+    </dl>
+    <p><a href="/archive.html" class="more">View all posts »</a></p>
+  </div>
+</div>

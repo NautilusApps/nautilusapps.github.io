@@ -1,13 +1,9 @@
 ---
-layout: default
+layout: post
 title: "Vision and Purpose"
 description: "Some thoughts on defining the overall purpose for your app, or project."
 tags: [cats]
 ---
-{% include JB/setup %}
-
-## {{ page.title }}
-{{ page.date | date_to_long_string }}
 
 ### WHAT DOES YOUR APP STAND FOR, WHAT IS IT REALLY ABOUT?
 ### WHAT PROBLEM ARE YOU TRYING TO SOLVE?
