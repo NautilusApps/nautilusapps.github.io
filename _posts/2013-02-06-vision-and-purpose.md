@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Vision and Purpose"
-description: "Some thoughts on defining the overall purpose for your app, or project."
-tags: [cats]
+title: Vision and Purpose
+baseline: Some thoughts on defining the overall purpose for your app, or project.
+tags: [entrepreneurial]
 ---
 
-### WHAT DOES YOUR APP STAND FOR, WHAT IS IT REALLY ABOUT?
 ### WHAT PROBLEM ARE YOU TRYING TO SOLVE?
-### WHAT VALUE WILL YOU CREATE FOR PEOPLE?
-### WHAT IS THE PURPOSE OF YOUR APP?
+#### WHAT DOES YOUR APP STAND FOR, WHAT IS IT REALLY ABOUT?
+#### WHAT VALUE WILL YOU CREATE FOR PEOPLE?
+#### WHAT IS THE PURPOSE OF YOUR APP?
 
 The process of defining purpose is iterative, but the clearer and stronger your vision and purpose is at the start, the easier the rest of the process will go. Defining the vision of your app is the largest decision you will make and it informs all the smaller decisions. Like any decision in a startup, its subject to change and must be made without too much hesitation. This is the most important step in creating something, but if you never move past this step then a well defined purpose will get you nothing. 
 
